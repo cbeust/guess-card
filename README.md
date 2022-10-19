@@ -1,3 +1,8 @@
+
+<p align="center">
+    <img src="3_of_clubs.svg"></img>
+</p>
+
 # A simple card trick powered by a website
 
 ## Instructions
