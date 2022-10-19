@@ -19,12 +19,11 @@
 - Show confusion, anger, frustration
 - Give it another go
 - Fail again
-- "Okay, fine, I give up. I am not smart enough to guess this card..."
-- "What was it?!?"
+- "Okay, fine, I give up. What was it?!?"
 
 The victims tell you the card.
 
-Acting time! Facepalm, show befuddlement, "Damn! I KNEW IT!!!"
+Acting time! Facepalm, show befuddlement, "Damn..."
 
 - "I'm not smart enough to guess that card..."
 - "... which is why, I wrote some code to guess this card for me"
