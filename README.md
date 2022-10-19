@@ -1,4 +1,4 @@
-# A simple card trick powered by a web site
+# A simple card trick powered by a website
 
 ## Instructions
 
@@ -11,13 +11,15 @@
 - Of course, it's wrong
 - If it's not wrong, drop the microphone and walk out of the room in triumph
 - But come on, it's wrong
-- Show confusionm, anger, frustration
+- Show confusion, anger, frustration
 - Give it another go
 - Fail again
 - "Okay, fine, I give up. I am not smart enough to guess this card..."
 - "What was it?!?"
 
-The victims tell you the card. Acting time! Facepalm, show befuddlement, "Damn! I KNEW IT!!!"
+The victims tell you the card.
+
+Acting time! Facepalm, show befuddlement, "Damn! I KNEW IT!!!"
 
 - "I'm not smart enough to guess that card..."
 - "... which is why, I wrote some code to guess this card for me"
@@ -34,7 +36,7 @@ Feign surprise, then have a "Doh!" moment
 
 Grab the laptop, type the password.
 
-Enjoy victory as the website
+Enjoy victory as the website shows the correct card.
 
 # The trick
 
@@ -66,5 +68,7 @@ The first character is the value of the card, the second character is the suit. 
                         case 's': suit = "spades"; break;
                     }
 ```
+
+For example, "Ace of hearts" is "ah<whatever>", "Ten of diamonds" is "1d<whatever>", "Queen of Clubs" is "qc<whatever>", etc... You get the idea.
 
 Enjoy!
