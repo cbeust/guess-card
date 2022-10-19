@@ -1,0 +1,23 @@
+.pw_prompt {
+    position:fixed;
+    left: 50%;
+    top:10%;
+    margin-left:-100px;
+    padding:15px;
+    width:200px;
+    border:1px solid black;
+}
+.pw_prompt label {
+    display:block; 
+    margin-bottom:5px;
+}
+.pw_prompt input {
+    margin-bottom:10px;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

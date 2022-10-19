@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="card.css" />
+        <script src="card.js"></script>
+    </head>
+
+    <body>
+        <p align="center">
+            <div id="card">
+            </div>
+        </p>
+
+
+        <script>
+            window.pw_prompt({
+                lm:"Please enter your password:", 
+                callback: function(password) {
+                    // var password = prompt("Password");
+                    var value = null;
+                    switch (password[0]) {
+                        case 'a': value = "ace"; break;
+                        case '2': value = "2"; break;
+                        case '3': value = "3"; break;
+                        case '4': value = "4"; break;
+                        case '5': value = "5"; break;
+                        case '6': value = "6"; break;
+                        case '7': value = "7"; break;
+                        case '8': value = "8"; break;
+                        case '9': value = "9"; break;
+                        case '1': value = "10"; break;
+                        case 'j': value = "jack"; break;
+                        case 'q': value = "queen"; break;
+                        case 'k': value = "king"; break;
+                    }
+                    var suit = null;
+                    switch(password[1]) {
+                        case 'c': suit = "clubs"; break;
+                        case 'd': suit = "diamonds"; break;
+                        case 'h': suit = "hearts"; break;
+                        case 's': suit = "spades"; break;
+                    }
+                    if (value != null && suit != null) {
+                        var img = document.createElement("img");
+                        img.src = `${value}_of_${suit}.svg`;
+                        document.getElementById("card").appendChild(img);
+                    } else {
+                        location.reload();
+                    }
+                }
+            });
+
+
+        </script>
+
+    </body>
+</html>
