@@ -64,7 +64,6 @@ The first character is the value of the card, the second character is the suit. 
                         case 'q': value = "queen"; break;
                         case 'k': value = "king"; break;
                     }
-                    var suit = null;
                     switch(password[1]) {
                         case 'c': suit = "clubs"; break;
                         case 'd': suit = "diamonds"; break;
