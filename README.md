@@ -69,6 +69,6 @@ The first character is the value of the card, the second character is the suit. 
                     }
 ```
 
-For example, "Ace of hearts" is "ah<whatever>", "Ten of diamonds" is "1d<whatever>", "Queen of Clubs" is "qc<whatever>", etc... You get the idea.
+For example, "Ace of hearts" is "ah&lt;whatever&gt;", "Ten of diamonds" is "1d&lt;whatever&gt;", "Queen of Clubs" is "qc&lt;whatever&gt;", etc... You get the idea.
 
 Enjoy!
